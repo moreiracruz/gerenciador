@@ -16,6 +16,11 @@ public class HomeController
    @Path("/")
    public void index()
    {
-      result.include("msg", "Message from your controller");
+      //result.include("msg", "Message from your controller");
+   }
+   
+   @Path("/agenda")
+   public void agenda() {
+	   System.out.println("cheguei aqui");
    }
 }
